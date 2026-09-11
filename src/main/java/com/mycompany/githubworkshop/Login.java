@@ -19,4 +19,9 @@ public class Login {
                 username.length()<=7;
     }
     
+    public boolean CheckMyUsername(){
+        return username.contains("*") && 
+                username.length()<=7;
+    }
+    
 }
